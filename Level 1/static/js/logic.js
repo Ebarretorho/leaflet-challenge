@@ -26,8 +26,7 @@ var myMap = L.map("map", {
 
 
 function getColor(eq_depth) {
-    return eq_depth > 90 ? '#75040B' :
-            eq_depth > 70 ? '#75272C' :
+    return  eq_depth > 70 ? '#75272C' :
             eq_depth > 50 ? '#C20612' :
             eq_depth > 30 ? '#F50717' :
             eq_depth > 10 ? '#F7515C' :
