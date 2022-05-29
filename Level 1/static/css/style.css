@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.info {
+  padding: 20px 24px;
+  font: 14px "Lucida Console", "Courier New", monospace;
+  background: rgba(56, 58, 58);
+  box-shadow: 5 5 35px rgba(0,0,0,0.2);
+  border-radius: 2px;
+}
+
+.legend {
+  font-family:"Lucida Console", "Courier New", monospace;
+  border: 2px solid #b8b8b8; 
+  color: #555;
+  padding: 8px;
+  margin: 8px;
+  margin-bottom: 500px;
+  height: 100px;
+  width: 200px;
+  display: inline-block;
+}
+
+.legend j {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+h1{
+  font: 20px "Lucida Console", "Courier New", monospace;
+}
+
+h2{
+  font: 14px "Lucida Console", "Courier New", monospace;
+}
+
+h3{
+  font: 12px "Lucida Console", "Courier New", monospace;
+}
